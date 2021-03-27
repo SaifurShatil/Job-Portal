@@ -1,0 +1,88 @@
+body{
+  height: 100%;
+  background: url('faq.jpg');
+  -webkit-background-size:cover;
+  background-size: cover;
+
+}
+
+h1{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  color: #fff;
+}
+
+p{
+  color: #000;
+  text-align: center;
+  margin-top: 1%;
+}
+#container{
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.accordion label{
+  display: block;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  color: #fff;
+  padding: 10px;
+  background-color: tomato;
+}
+
+.accordion p{
+  color: #fff;
+  padding: 20px;
+  line-height: 30px;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  text-align: left;
+  background-color: #000;
+  margin-top: 0;
+}
+#accordion1:checked~.single-text{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0;
+}
+#accordion1{
+  display: none;
+  position: relative;
+}
+
+#accordion2:checked~.single-text{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0;
+}
+#accordion2{
+  display: none;
+  position: relative;
+}
+#accordion3:checked~.single-text{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0;
+}
+#accordion3{
+  display: none;
+  position: relative;
+}
+#accordion4:checked~.single-text{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 0;
+}
+#accordion4{
+  display: none;
+  position: relative;
+}
